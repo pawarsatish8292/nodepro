@@ -5,7 +5,7 @@ app.get('/get',(re1, res)=>{
 res.send("hello word");
 });
 
-app.listen(3000,(err) =>{
+app.listen(3000,"0.0.0.0",(err) =>{
     if(err) {
         console.log("err ======= ", err);
     } else {
